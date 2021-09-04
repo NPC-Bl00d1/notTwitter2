@@ -17,6 +17,8 @@ firebase.initializeApp(firebaseConfig);
 
     unsername = document.getElementById("unsername_input").value;
     console.log("unsername is: " + unsername)
+
+    localStorage.setItem("username",unsername);
     
     firebase.database().ref("/").child(unsername).update({
     
