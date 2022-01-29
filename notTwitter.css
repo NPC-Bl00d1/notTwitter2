@@ -61,3 +61,31 @@ color:orange;
 width: 500px;
 
 }
+
+#logoutroompage {
+
+    background-color: black;
+    color:orange;
+
+}
+
+#sendbutton {
+
+    background-color: black;
+    color:orange
+
+}
+
+#output {
+
+background-color: white;
+margin-top:5px;
+width: 500px;
+
+}
+
+#text {
+
+width:700px;
+
+}

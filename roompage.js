@@ -1,15 +1,14 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDSJcds4MfsJws0hUXJbF2cxV746JneZQw",
-    authDomain: "inazuma-pretty.firebaseapp.com",
-    databaseURL: "https://inazuma-pretty-default-rtdb.firebaseio.com",
-    projectId: "inazuma-pretty",
-    storageBucket: "inazuma-pretty.appspot.com",
-    messagingSenderId: "196428017978",
-    appId: "1:196428017978:web:986db6709393ef04b1e003",
-    measurementId: "G-1FWJ0NC05F"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyCQtXlq0VRt01LKtIGUxEu8N2GNB0VHclk",
+    authDomain: "un-nerf-albedos-hair-please.firebaseapp.com",
+    databaseURL: "https://un-nerf-albedos-hair-please-default-rtdb.firebaseio.com",
+    projectId: "un-nerf-albedos-hair-please",
+    storageBucket: "un-nerf-albedos-hair-please.appspot.com",
+    messagingSenderId: "934459020870",
+    appId: "1:934459020870:web:ad86c255c10ab0fff85c47",
+    measurementId: "G-279LMK325T"
+  };
+  firebase.initializeApp(firebaseConfig);
 
 var username = localStorage.getItem("username");
 var roomname = localStorage.getItem("roomname");
